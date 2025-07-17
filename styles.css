@@ -1,133 +1,138 @@
 /* Styling for footer section*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: sans-serif;
-    color: #696969;
-    background: #5aa79e;
+  font-family: sans-serif;
+  color: #696969;
+  height: 100%;
 }
 
 /* Footer background */
 footer {
-    padding: 40px 20px;
+  padding: 40px 20px;
+  background: #5aa79e;
 }
 
 /* Main container */
 .footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    color: #2A3439;
-    gap: 40px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    border-bottom: 1px solid #ec5b17;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #2a3439;
+  gap: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  border-bottom: 1px solid #ec5b17;
 }
 
 /*Newsletter section */
 .newsletter {
-    font-weight: bold;
-    flex: 1 1 300px;
-    margin-bottom: 10px;
+  font-weight: bold;
+  flex: 1 1 300px;
+  margin-bottom: 10px;
 }
 
 .footer-subscribe {
-    flex: 1 1 300px;
-    gap: 10px; /* space between button and input */
-    margin-top: 20px; /* spacing below paragraph */
+  flex: 1 1 300px;
+  flex-wrap: wrap;
+  gap: 10px; /* space between button and input */
+  margin-top: 20px; /* spacing below paragraph */
 }
 
 .footer-subscribe input {
-    flex: 1; /* making the input attr take up the remaining space */
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    color: #2A3439;
+  flex: 1; /* making the input attr take up the remaining space */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  color: #2a3439;
 }
 
 .btn {
-    white-space: no-wrap; /* keeps button text in one line */
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    background: #ec5b17;
-    color: white;
-    cursor: pointer;
+  white-space: no-wrap; /* keeps button text in one line */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background: #ec5b17;
+  color: white;
+  cursor: pointer;
 }
 
 /* Links section */
 .footer-links {
-    display: flex;
-    justify-content: space-between;
-    flex: 1 1 400px;
-    gap: 60px;
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 300px;
+  gap: 60px;
+  margin-bottom: 20px;
 }
 
 .footer-quick-links {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .footer-technology {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .footer-links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer-links li {
-    margin-top: 12px;
-    margin-bottom: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 img {
-    max-width: 150px;
-    height: 150px;
+  max-width: 150px;
+  height: 150px;
 }
 
 /*logo section */
 footer .container {
   max-width: 1200px;
-  margin: 15px auto 0;
-  padding: 0 10px;
+  margin: 5px auto 0;
+  padding: 0 5px;
   display: flex;
   align-items: center;
+  border-bottom: none;
 }
 
 /* Responsive styles */
 @media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        align-items: center;
-    }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .footer-subscribe {
-        flex-direction: column;
-        width: 100%;
-    }
+  .footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 
-    .footer-subscribe input {
-        width: 100%;
-    }
+  .footer-subscribe input {
+    width: 100%;
+  }
 
-    .btn {
-        width: 100%;
-    }
+  .btn {
+    width: 100%;
+  }
 
-    .footer-links {
-        flex-direction: column;
-        gap: 20px;
-        width: 100%;
-    }
+  .footer-links {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
 }
