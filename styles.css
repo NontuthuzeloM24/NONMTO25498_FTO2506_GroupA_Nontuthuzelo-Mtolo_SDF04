@@ -8,7 +8,7 @@
 body {
   font-family: sans-serif;
   color: #696969;
-  height: 100%; /* makes sure the streches to full viewpoint height */
+  height: 100%; /* makes sure the item streches to full viewpoint height */
 }
 
 /* Footer background */
